@@ -1,1 +1,32 @@
+# Git
+*.rej
+*.orig
+*.gitreview
+
+# Maven
+target
+
+# VS Code
+.vscode
+**/.factorypath
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
 .idea
+
+# Eclipse
+.classpath
+.project
+.settings
+
+#vim
+*.swp
+
+#OSX
+.DS_Store
+.java-version
+
+# JMeter
+jmeter.log
