@@ -6,18 +6,15 @@ $config = array(
         'core:AdminPassword',
     ),
 
-    'example-userpass' => array(
-        'exampleauth:UserPass',
-        'user1:user1pass' => array(
-            'uid' => array('1'),
-            'eduPersonAffiliation' => array('group1'),
-            'email' => 'jon.aaron@streamsets.com',
-        ),
-        'user2:user2pass' => array(
-            'uid' => array('2'),
-            'eduPersonAffiliation' => array('group2'),
-            'email' => 'not-a-user@streamsets.com',
-        ),
+    'example-static' => array(
+        /* This maps to modules/exampleauth/lib/Auth/Source/StaticSource.php */
+        'exampleauth:StaticSource',
+
+        /* The following is configuration which is passed on to
+         * the exampleauth:StaticSource authentication source. */
+        'uid' => '1',
+        'eduPersonAffiliation' => ['group1'],
+        'email' => ['jon.aaron@streamsets.com'],
     ),
 
 );
