@@ -14,7 +14,7 @@ $config = array(
          * the exampleauth:StaticSource authentication source. */
         'uid' => '1',
         'eduPersonAffiliation' => ['group1'],
-        'email' => ['jon.aaron@streamsets.com'],
+        'email' => ['jon.aaron+autosaml@streamsets.com'],
     ),
 
 );
