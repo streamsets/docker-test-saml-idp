@@ -6,14 +6,14 @@
  */
 
 // DEV Org
-$metadata['https://dev.login.streamsets.com/api/security/saml2/entityId/f7b39735-a808-11ed-8fa2-ff07edbfbb09'] = [
-    'entityid' => 'https://dev.login.streamsets.com/api/security/saml2/entityId/f7b39735-a808-11ed-8fa2-ff07edbfbb09',
+$metadata['https://dev.login.streamsets.com/api/security/saml2/entityId/aa7db20a-b7ae-11ed-97c9-2952d6b0b279'] = [
+    'entityid' => 'https://dev.login.streamsets.com/api/security/saml2/entityId/aa7db20a-b7ae-11ed-97c9-2952d6b0b279',
     'contacts' => [],
     'metadata-set' => 'saml20-sp-remote',
     'AssertionConsumerService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
-            'Location' => 'https://dev.login.streamsets.com/api/security/saml2/acs/f7b39735-a808-11ed-8fa2-ff07edbfbb09',
+            'Location' => 'https://dev.login.streamsets.com/api/security/saml2/acs/aa7db20a-b7ae-11ed-97c9-2952d6b0b279',
             'index' => 1,
         ],
     ],
@@ -23,13 +23,13 @@ $metadata['https://dev.login.streamsets.com/api/security/saml2/entityId/f7b39735
             'encryption' => false,
             'signing' => true,
             'type' => 'X509Certificate',
-            'X509Certificate' => 'MIIC3jCCAcagAwIBAgIIDS2eRpLYSCswDQYJKoZIhvcNAQEEBQAwLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMB4XDTIzMDIwODIzMzMxOVoXDTI2MDIwNzIzMzMxOVowLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlin/I549EPzFHcMLtkcVhzJAvmsunG0bOI6ImCkxmGt9Ajy1WLGliVwMzmQ8MLg4fkKYujxF4+zdlOFN/W4tEN+AVywuzzfYoDG/62/2PprG1ABMRqxpG3Aefd3BuvvY7UH/e6gRcKagADICjzFa8ny7gc3UEx72nJb8GCLj0vBJkrebVdpAQQZ+5eXen53AzQtH9RmSIqq8FkUT1gSM9vIQqRCgZkxvOJDQ87T6AumYGDvN89Any/yvP3kYGKff8bjcFq7r35JCpWsr1UKQ0FzE87JWVPcaeb5AB50n4NGgNm5xSbXLCjpnvTdyhAK/+wXhmSf4BfUeXYNBDIDjvwIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQAMBLMESNopqAXEDmmCcaOjnSxG5ERHsqDvdoLNJ0uP15lWcMEzxvASj00gUOKptSp+xn+lGUsiROLwOUWjCKR9kNnRI+xQaId1QMhseTbL8Nhf6Z+/cePzBsmvxvRDYwHj53TKsR1XvN8maA2ce8EbdhwWIGACObb75aCeIu3OJ7W7W/0V18vSlWdXRMJlAPpPzsxtQVQ/eJmihwWFf4ghJVXmsh4S7GUXk852vplsS5f6OuCBrlT/lYQ0iuPuJFV+yZ+UOOz0BPFVOtnErtfClnIbeH86N2X1A+QuzIXv43nCiQc5ZWW8Ry9Jz+x4BA6NS5/2Dh9z4ngIDc9MYFcz',
+            'X509Certificate' => 'MIIC3jCCAcagAwIBAgIIfR97gwd9SGEwDQYJKoZIhvcNAQEEBQAwLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMB4XDTIzMDIyODIxMjcxNFoXDTI2MDIyNzIxMjcxNFowLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuXr/SyKhEndhG0jNVKtG24jiRYkN0Vw8WJaM/jmcdJvwoBHS2wR9KBjevWdGHoIZZRRIbG7g/6A3fg6Ls0yB6DgpXG+kspZxi/bPDMfRwnvSbtc6AsqkitVHZdBzsLrFCdDBUlE/Q8Nlu2LWsc6StOWMfRRDx+EKDTf9nIO94RMW9hgWosSkSMCvJo2b0ENBAbRf2SdttsKKggsKKjKMw1Txaiwa/AXURjpLg13e35O34YF/376ek0QpfSICSJQ8UxYU1IG4oVPrQrk6dtQf/8lpspWsiKIY1lQj5nY7/mT/i9jGP3vE4xKg0EjwlzvEYJ73jek+IgW9ZUjGq/kgtQIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQAoRbPEAiqkVqfjMDtcT1GOo3haNQ4hCuhmOlsZvSLCnLa/InbRkDVNBXjzU9++H/kpa3UqPKfB5fxHelUg5xV0GA90baVEjh/kiqzIHIbnDJ/y6c9dyMODOATJwg+E/+4QIj3FlW1U1PNWxChf5zOEDrVBQKPzjNGl+55tistHTnVU1ZJMnxy/63RQVFKVscahq6Ww+29w5Os3CJppb+vR/a+yyYHtfUw1sJ++e1+E+prNrZkTPhwulNNBhWT6jtSjdaEUyfDrBa3De9AKXkYXU0ERBuV6OrcWwEE01rRhLZWgLi3ySEHNpWN50AY0KWO+vALi3tOle2TW5nCakpCo',
         ],
         [
             'encryption' => true,
             'signing' => false,
             'type' => 'X509Certificate',
-            'X509Certificate' => 'MIIC3jCCAcagAwIBAgIIDS2eRpLYSCswDQYJKoZIhvcNAQEEBQAwLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMB4XDTIzMDIwODIzMzMxOVoXDTI2MDIwNzIzMzMxOVowLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlin/I549EPzFHcMLtkcVhzJAvmsunG0bOI6ImCkxmGt9Ajy1WLGliVwMzmQ8MLg4fkKYujxF4+zdlOFN/W4tEN+AVywuzzfYoDG/62/2PprG1ABMRqxpG3Aefd3BuvvY7UH/e6gRcKagADICjzFa8ny7gc3UEx72nJb8GCLj0vBJkrebVdpAQQZ+5eXen53AzQtH9RmSIqq8FkUT1gSM9vIQqRCgZkxvOJDQ87T6AumYGDvN89Any/yvP3kYGKff8bjcFq7r35JCpWsr1UKQ0FzE87JWVPcaeb5AB50n4NGgNm5xSbXLCjpnvTdyhAK/+wXhmSf4BfUeXYNBDIDjvwIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQAMBLMESNopqAXEDmmCcaOjnSxG5ERHsqDvdoLNJ0uP15lWcMEzxvASj00gUOKptSp+xn+lGUsiROLwOUWjCKR9kNnRI+xQaId1QMhseTbL8Nhf6Z+/cePzBsmvxvRDYwHj53TKsR1XvN8maA2ce8EbdhwWIGACObb75aCeIu3OJ7W7W/0V18vSlWdXRMJlAPpPzsxtQVQ/eJmihwWFf4ghJVXmsh4S7GUXk852vplsS5f6OuCBrlT/lYQ0iuPuJFV+yZ+UOOz0BPFVOtnErtfClnIbeH86N2X1A+QuzIXv43nCiQc5ZWW8Ry9Jz+x4BA6NS5/2Dh9z4ngIDc9MYFcz',
+            'X509Certificate' => 'MIIC3jCCAcagAwIBAgIIfR97gwd9SGEwDQYJKoZIhvcNAQEEBQAwLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMB4XDTIzMDIyODIxMjcxNFoXDTI2MDIyNzIxMjcxNFowLzEtMCsGA1UEAwwkNGE0ODZiMjktZWNmNy0xMWVjLTk2ZjUtNTk4ZGJkNzgyNzFlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuXr/SyKhEndhG0jNVKtG24jiRYkN0Vw8WJaM/jmcdJvwoBHS2wR9KBjevWdGHoIZZRRIbG7g/6A3fg6Ls0yB6DgpXG+kspZxi/bPDMfRwnvSbtc6AsqkitVHZdBzsLrFCdDBUlE/Q8Nlu2LWsc6StOWMfRRDx+EKDTf9nIO94RMW9hgWosSkSMCvJo2b0ENBAbRf2SdttsKKggsKKjKMw1Txaiwa/AXURjpLg13e35O34YF/376ek0QpfSICSJQ8UxYU1IG4oVPrQrk6dtQf/8lpspWsiKIY1lQj5nY7/mT/i9jGP3vE4xKg0EjwlzvEYJ73jek+IgW9ZUjGq/kgtQIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQAoRbPEAiqkVqfjMDtcT1GOo3haNQ4hCuhmOlsZvSLCnLa/InbRkDVNBXjzU9++H/kpa3UqPKfB5fxHelUg5xV0GA90baVEjh/kiqzIHIbnDJ/y6c9dyMODOATJwg+E/+4QIj3FlW1U1PNWxChf5zOEDrVBQKPzjNGl+55tistHTnVU1ZJMnxy/63RQVFKVscahq6Ww+29w5Os3CJppb+vR/a+yyYHtfUw1sJ++e1+E+prNrZkTPhwulNNBhWT6jtSjdaEUyfDrBa3De9AKXkYXU0ERBuV6OrcWwEE01rRhLZWgLi3ySEHNpWN50AY0KWO+vALi3tOle2TW5nCakpCo',
         ],
     ],
     'NameIDFormat' => 'urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress',
