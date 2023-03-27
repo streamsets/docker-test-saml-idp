@@ -38,6 +38,38 @@ $metadata['https://dev.login.streamsets.com/api/security/saml2/entityId/aa7db20a
     'saml20.sign.assertion' => true,
 ];
 
+$metadata['https://dev.login.streamsets.com/api/security/saml2/entityId/60db2208-ccf9-11ed-aea7-81b71b44eb0e'] = [
+    'entityid' => 'https://dev.login.streamsets.com/api/security/saml2/entityId/60db2208-ccf9-11ed-aea7-81b71b44eb0e',
+    'contacts' => [],
+    'metadata-set' => 'saml20-sp-remote',
+    'AssertionConsumerService' => [
+        [
+            'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
+            'Location' => 'https://dev.login.streamsets.com/api/security/saml2/acs/60db2208-ccf9-11ed-aea7-81b71b44eb0e',
+            'index' => 1,
+        ],
+    ],
+    'SingleLogoutService' => [],
+    'keys' => [
+        [
+            'encryption' => false,
+            'signing' => true,
+            'type' => 'X509Certificate',
+            'X509Certificate' => 'MIIC3jCCAcagAwIBAgIIC4dZQWNcSq8wDQYJKoZIhvcNAQEEBQAwLzEtMCsGA1UEAwwkMmIyNDA3ODgtODA5NC0xMWVkLWI0OWMtNGQ2YmM2OGNmN2YyMB4XDTIzMDMyNzIzNDQ1N1oXDTI2MDMyNjIzNDQ1N1owLzEtMCsGA1UEAwwkMmIyNDA3ODgtODA5NC0xMWVkLWI0OWMtNGQ2YmM2OGNmN2YyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0iHblSqyd/hY7/VpFYp/PPjgktY86n7W7jJBhBODklULr1KaH6Grvz15p87ev5Zx3inczJsULeJEj996fS3f2SldgP9nWd4i6e7hEO6gziu7v5tuAw3iQb0UscADCmrlpfCswpGt53YwvzxsZ/Cd3I2Fpxz0uxh2Bjoar55RL5oTtyzGwWT3SkLS16nrN1U0dxD8HGL/6ETj+XBaFyq8wrkj003+ZSAGSCxxqn2P46XkVS9evZRBZdcGIyVk/wn8P2mw86HxTZtoNvISrOha2wZrjszzzcU8xiqLwu4yo2fqLG+lzjUez/oJ9xzPOwsucHYRS4tvgc7QLqGFIG2/4QIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQCO1bepkEpu+S0Idr70y+wKRGwf0zOkTPkrbDiL165ZtX2vZVfp3PrdAv+Sz+vKH0uk4TGizcQuu8vIEMWyv/krmZnKmJM4wC5JnSNttq7wQACqyn44VhL+/bzrc5Z9H9BomWlIDGiaqeGhYr7zEtXaG+9lH9RHGkblGjbqWa9XMx4RoGcFzXWzKSSannrKwAsG1AyGpjur/QR4Ag4NKtHO1LqOeMA4khbKuOj6PiYP6S/uoj0QAvWVC88pe6Z1DHzauXQmJIQX4EkS8RPteIjriLZrQZjhbsysgmR5d3PNBiqe1YNgI1WJqlg/Im+okncnvupxjugiYC3aueS5X7hg',
+        ],
+        [
+            'encryption' => true,
+            'signing' => false,
+            'type' => 'X509Certificate',
+            'X509Certificate' => 'MIIC3jCCAcagAwIBAgIIC4dZQWNcSq8wDQYJKoZIhvcNAQEEBQAwLzEtMCsGA1UEAwwkMmIyNDA3ODgtODA5NC0xMWVkLWI0OWMtNGQ2YmM2OGNmN2YyMB4XDTIzMDMyNzIzNDQ1N1oXDTI2MDMyNjIzNDQ1N1owLzEtMCsGA1UEAwwkMmIyNDA3ODgtODA5NC0xMWVkLWI0OWMtNGQ2YmM2OGNmN2YyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0iHblSqyd/hY7/VpFYp/PPjgktY86n7W7jJBhBODklULr1KaH6Grvz15p87ev5Zx3inczJsULeJEj996fS3f2SldgP9nWd4i6e7hEO6gziu7v5tuAw3iQb0UscADCmrlpfCswpGt53YwvzxsZ/Cd3I2Fpxz0uxh2Bjoar55RL5oTtyzGwWT3SkLS16nrN1U0dxD8HGL/6ETj+XBaFyq8wrkj003+ZSAGSCxxqn2P46XkVS9evZRBZdcGIyVk/wn8P2mw86HxTZtoNvISrOha2wZrjszzzcU8xiqLwu4yo2fqLG+lzjUez/oJ9xzPOwsucHYRS4tvgc7QLqGFIG2/4QIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQCO1bepkEpu+S0Idr70y+wKRGwf0zOkTPkrbDiL165ZtX2vZVfp3PrdAv+Sz+vKH0uk4TGizcQuu8vIEMWyv/krmZnKmJM4wC5JnSNttq7wQACqyn44VhL+/bzrc5Z9H9BomWlIDGiaqeGhYr7zEtXaG+9lH9RHGkblGjbqWa9XMx4RoGcFzXWzKSSannrKwAsG1AyGpjur/QR4Ag4NKtHO1LqOeMA4khbKuOj6PiYP6S/uoj0QAvWVC88pe6Z1DHzauXQmJIQX4EkS8RPteIjriLZrQZjhbsysgmR5d3PNBiqe1YNgI1WJqlg/Im+okncnvupxjugiYC3aueS5X7hg',
+        ],
+    ],
+    'NameIDFormat' => 'urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress',
+    'simplesaml.nameidattribute' => 'email',
+    'saml20.sign.response' => true,
+    'saml20.sign.assertion' => true,
+];
+
 // CASCADE Org [WIP]
 $metadata['https://dev.login.streamsets.com/api/security/saml2/entityId/c4d2ad2d-824c-11ed-a8e8-8fdb99d94405'] = [
     'entityid' => 'https://dev.login.streamsets.com/api/security/saml2/entityId/c4d2ad2d-824c-11ed-a8e8-8fdb99d94405',
