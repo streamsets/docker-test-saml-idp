@@ -52,7 +52,19 @@ $config = array(
         'expiredUser:expiredUser' => [
             'uid' => 'testUser4',
             'email' => ['jon.aaron+expired@streamsets.com']
-        ]
+        ],
+
+        // Regular Org User
+        'regOrgUser:regOrgUser' => [
+            'uid' => 'testUser5',
+            'email' => ['jon.aaron+orgUser@streamsets.com']
+        ],
+
+        // Malformed User
+        'malformedUser:malformedUser' => [
+            'uid' => 'testUser6',
+            'email' => ['jon.aaron+malformedUser']
+        ],
     ]
 
 );
